@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "electron-dev": "concurrently \"BROWSER=none npm run start\" \"wait-on http://127.0.0.1:3000 && npx electron .\"",
+    "electron-dev": "concurrently \" npm run start\" \"wait-on http://127.0.0.1:3000 && npx electron .\"",
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
     "postinstall": "electron-builder install-app-deps"
